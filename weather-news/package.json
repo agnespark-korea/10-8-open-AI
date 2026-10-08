@@ -1,0 +1,13 @@
+{
+  "name": "weather-news-dashboard",
+  "version": "1.0.0",
+  "description": "OpenWeather + NewsAPI 날씨 & 뉴스 대시보드 (Vanilla JS)",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node --env-file=.env server.js"
+  },
+  "engines": {
+    "node": ">=20.6"
+  }
+}

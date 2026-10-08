@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>오늘의 날씨 & 뉴스</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <header class="top">
+      <h1>오늘의 날씨 &amp; 뉴스</h1>
+      <button id="refresh" type="button">새로고침</button>
+    </header>
+
+    <section aria-labelledby="weather-title">
+      <h2 id="weather-title">날씨</h2>
+      <div id="weather" class="weather-grid">
+        <p class="status">불러오는 중…</p>
+      </div>
+    </section>
+
+    <section aria-labelledby="news-title">
+      <h2 id="news-title">최신 뉴스</h2>
+      <div id="news" class="card">
+        <p class="status">불러오는 중…</p>
+      </div>
+    </section>
+
+    <footer>
+      데이터 제공:
+      <a href="https://openweathermap.org/" target="_blank" rel="noopener">OpenWeather</a> ·
+      <a href="https://newsapi.org/" target="_blank" rel="noopener">NewsAPI.org</a>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
